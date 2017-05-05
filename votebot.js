@@ -133,7 +133,7 @@ client.on
 				}
 	}
 	
-	if(msg.content.toLowerCase().startsWith("==votes "))
+	if(msg.content.toLowerCase().startsWith("==votes"))
 	{
 		msg.channel.sendMessage("there are currently "+votes.length+" votes happening right now");
 	}
