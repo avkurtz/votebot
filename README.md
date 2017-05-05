@@ -1,5 +1,6 @@
 # votebot
 made by Alex Kurtz
+adding the bot itself to your server: https://discordapp.com/oauth2/authorize?&client_id=278007006529323008&scope=bot&permissions=0
 
 ###### dependencies
 discord.js
