@@ -1,4 +1,5 @@
 // author Alexandr V Kurtz
+// under MIT license
 // version 2017/05/05
 // vote bot 
 // a bot that can do yes or no votes on discord, and also randomly generate ints
