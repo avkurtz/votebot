@@ -155,25 +155,6 @@ client.on
 			msg.channel.sendMessage(rand.toString());
 	}
 	
-	if(msg.content.toLowerCase().startsWith("==changelog"))
-	{
-		msg.channel.sendMessage
-		(
-			"votebot changelog: \n"+
-			"2017/02/05 - created basic bare bones votebot \n"+
-			"2017/02/06 - made it possible to do capital y and n \n"+
-			"2017/02/13 - made it so you can only vote once \n"+
-			"2017/03/13 - made code be able to tolerate putting punctuation and other characters in front of ==vote \n"+
-			"2017/03/19 - completely rewrote code \n"+
-			"	made it possible to do votes across text channels \n"+
-			"	added capability of yes and no instead of just y and n \n"+
-			"	added ==votes command \n"+
-			"	added ==changelog command \n"+
-			"	made commands not case sensitive \n"+
-			"2017/05/05 - added random int generator"
-		);
-	}
-	
     if(msg.content.toLowerCase().startsWith("==help"))
     {
         msg.channel.sendMessage
