@@ -159,18 +159,18 @@ client.on
 	{
 		msg.channel.sendMessage
 		(
-								"votebot changelog: \n"+
-								"2017/02/05 - created basic bare bones votebot \n"+
-								"2017/02/06 - made it possible to do capital y and n \n"+
-								"2017/02/13 - made it so you can only vote once \n"+
-								"2017/03/13 - made code be able to tolerate putting punctuation and other characters in front of ==vote \n"+
-								"2017/03/19 - completely rewrote code \n"+
-								"	made it possible to do votes across text channels \n"+
-								"	added capability of yes and no instead of just y and n \n"+
-								"	added ==votes command \n"+
-								"	added ==changelog command \n"+
-								"	made commands not case sensitive \n"+
-								"2017/05/05 - added random int generator"
+			"votebot changelog: \n"+
+			"2017/02/05 - created basic bare bones votebot \n"+
+			"2017/02/06 - made it possible to do capital y and n \n"+
+			"2017/02/13 - made it so you can only vote once \n"+
+			"2017/03/13 - made code be able to tolerate putting punctuation and other characters in front of ==vote \n"+
+			"2017/03/19 - completely rewrote code \n"+
+			"	made it possible to do votes across text channels \n"+
+			"	added capability of yes and no instead of just y and n \n"+
+			"	added ==votes command \n"+
+			"	added ==changelog command \n"+
+			"	made commands not case sensitive \n"+
+			"2017/05/05 - added random int generator"
 		);
 	}
 	
@@ -178,14 +178,14 @@ client.on
     {
         msg.channel.sendMessage
 		(
-								"if you want to start a vote, type in '==vote' followed by the voting question \n"+
-								"unfortunately I can only do yes or no questions for now \n"+
-								"if you ever want to see the current results say '==results' \n"+
-								"to end voting, say '==end' \n"+
-								"to see how many votes are currently happen, say ==votes \n"+
-								"to find a random int, say ==random followed by the minimum and maximum number \n"+
-								"to see changelog, say '==changelog'\n"+
-								"made by alex kurtz"
+			"if you want to start a vote, type in '==vote' followed by the voting question \n"+
+			"unfortunately I can only do yes or no questions for now \n"+
+			"if you ever want to see the current results say '==results' \n"+
+			"to end voting, say '==end' \n"+
+			"to see how many votes are currently happen, say ==votes \n"+
+			"to find a random int, say ==random followed by the minimum and maximum number \n"+
+			"to see changelog, say '==changelog'\n"+
+			"made by alex kurtz"
 		);
     }
 }
@@ -199,4 +199,4 @@ client.on
 }
 );
 
-client.login(""); // normally contains client token but I don't want that information public
+client.login("Mjc4MDA3MDA2NTI5MzIzMDA4.C-2uag.Tx1Bv4eHa24ly5vU3Ey5bQxuNqk"); // normally contains client token but I don't want that information public
