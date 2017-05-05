@@ -199,4 +199,4 @@ client.on
 }
 );
 
-client.login("Mjc4MDA3MDA2NTI5MzIzMDA4.C-2uag.Tx1Bv4eHa24ly5vU3Ey5bQxuNqk"); // normally contains client token but I don't want that information public
+client.login(""); // normally contains client token but I don't want that information public
