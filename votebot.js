@@ -169,6 +169,11 @@ client.on
 			"made by alex kurtz"
 		);
     }
+	
+	if(msg.content.toLowerCase().startsWith("==test"))
+	{
+		msg.channel.sendMessage("I am online and working"); // used to make sure votebot is online
+	}
 }
 );
 
