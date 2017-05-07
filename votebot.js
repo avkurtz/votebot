@@ -185,4 +185,4 @@ client.on
 }
 );
 
-client.login(""); // normally contains client token but I don't want that information public
+client.login(""); // client token goes here
